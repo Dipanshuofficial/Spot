@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    padding: 20px 40px;
+    margin: 15px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 40px;
+    >img{
+        border-radius: 40px;
+    }
+}
+
+.container> .innerC> .firstC{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 70em;
+    >p{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+.innerC{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.spans{
+    display: flex;
+    justify-content: space-between;
+    >.catry{
+        /* border: 2px solid black; */
+        padding: 2.5px 11px;
+        border-radius: 20px;
+        background-color: rgba(128, 128, 128, 0.23);
+    }
+}

@@ -27,7 +27,7 @@ function HomeCarousel() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel activeIndex={index} onSelect={handleSelect} style={{padding:"20px"}}>
       {data.map((slide, i) => {
         return (
           <Carousel.Item>
